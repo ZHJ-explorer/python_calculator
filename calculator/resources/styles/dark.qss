@@ -1,0 +1,145 @@
+/* 暗色主题样式表 */
+
+/* 菜单栏样式 */
+QMenuBar {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+QMenuBar::item {
+    color: #e0e0e0;
+}
+
+QMenuBar::item:selected {
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+
+/* 主窗口样式 */
+QMainWindow {
+    background-color: #2d2d2d;
+}
+
+/* 计算器按钮样式 */
+QPushButton {
+    background-color: #3a3a3a;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+QPushButton:hover {
+    background-color: #4a4a4a;
+}
+
+QPushButton:pressed {
+    background-color: #5a5a5a;
+}
+
+/* 数字按钮样式 */
+QPushButton#numberButton {
+    background-color: #3a3a3a;
+}
+
+/* 运算符按钮样式 */
+QPushButton#operatorButton {
+    background-color: #3a3a3a;
+    color: #4dabf7;
+    font-weight: bold;
+}
+
+/* 函数按钮样式 */
+QPushButton#functionButton {
+    background-color: #353535;
+    color: #b0b0b0;
+}
+
+/* 清除按钮样式 */
+QPushButton#clearButton {
+    background-color: #4a3a3a;
+    color: #fa5252;
+}
+
+/* 等号按钮样式 */
+QPushButton#equalsButton {
+    background-color: #2196f3;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+QPushButton#equalsButton:hover {
+    background-color: #1976d2;
+}
+
+QPushButton#equalsButton:pressed {
+    background-color: #1565c0;
+}
+
+/* 显示器样式 */
+QLineEdit#display {
+    background-color: #3a3a3a;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+    color: #e0e0e0;
+    min-height: 30px;
+}
+
+/* 历史记录窗口样式 */
+QListWidget#historyList {
+    background-color: #3a3a3a;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #e0e0e0;
+}
+
+/* 标签页样式 */
+QTabWidget::pane {
+    background-color: #3a3a3a;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QTabBar::tab {
+    background-color: #353535;
+    border: 1px solid #555555;
+    border-bottom-color: #555555;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 2px;
+    font-size: 13px;
+    color: #b0b0b0;
+}
+
+QTabBar::tab:selected {
+    background-color: #3a3a3a;
+    border-bottom-color: #3a3a3a;
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+/* 下拉框样式 */
+QComboBox {
+    background-color: #3a3a3a;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background-color: #2d2d2d;
+    border-top: 1px solid #555555;
+    font-size: 12px;
+    color: #b0b0b0;
+}
