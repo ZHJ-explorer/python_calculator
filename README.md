@@ -1,2 +1,2 @@
 # python_calculator
-python scientific calculator program based on PyQt6
+PyQt6-based python scientific calculator GUI program
