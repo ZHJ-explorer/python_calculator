@@ -5,7 +5,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from PyQt6.QtWidgets import QApplication
-from PyQt6.QtCore import Qt, QFile, QTextStream
+from PyQt6.QtCore import QFile, QTextStream
 from PyQt6.QtGui import QIcon
 from calculator.ui.main_window import CalculatorMainWindow
 from calculator.data.config_manager import ConfigManager
@@ -61,10 +61,6 @@ def main():
     # 创建QApplication实例
     app = QApplication(sys.argv)
     
-    # 设置应用程序信息
-    app.setApplicationName("Python多功能计算器")
-    app.setApplicationVersion("1.0")
-    app.setOrganizationName("Python Calculator Project")
     
     # 获取资源文件夹路径（resources文件夹位于calculator目录内）
     calculator_dir = os.path.dirname(os.path.abspath(__file__))
